@@ -1,0 +1,19 @@
+{
+  "name": "cs290assign7",
+  "version": "1.0.0",
+  "description": "CS 290 Assignment week 7",
+  "main": "assign7.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "CS290Assign7"
+  },
+  "keywords": [
+    "week",
+    "7"
+  ],
+  "author": "Michael Loo",
+  "license": "ISC"
+}

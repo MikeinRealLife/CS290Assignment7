@@ -1,0 +1,27 @@
+{{#if getData}}
+
+<h1>You sent the following data in a GET request:</h1>
+<ul>
+  {{#each getData}}
+    <li>{{this.name}}: {{this.value}}
+  {{/each}}
+</ul>
+{{/if}}
+
+{{#if postList}}
+
+
+<h1>You sent the following data in a POST request in the URL:</h1>
+<ul>
+	{{#each urlList}}
+		<li>{{this.name}}: {{this.value}}
+	{{/each}}
+</ul>
+<h1>You sent the following data in a POST request:</h1>
+<ul>
+	{{#each postList}}
+		<li>{{this.name}}: {{this.value}}
+	{{/each}}
+</ul>
+
+{{/if}}
